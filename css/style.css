@@ -1,0 +1,92 @@
+/*
+Theme name : Gyan
+Authore Name : Gyan
+version:  1.0
+
+
+Table of Content
+- - - - - - - - - -
+1. common css
+2. Nav section
+3. Bannner section
+4. Support section
+5. About section
+6. Courses section
+7. Our Events section
+8. Our Testimonial and FAQ section
+9. Our Teacher section
+10. Our Bolg section
+11. Contact section
+
+
+
+*/
+
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3.h4.h5.h6,p,span,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+ }
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
+}
+/* //common css end */
+
+/* Header css Start*/
+#header{
+    background-color: #2d3e50;
+	line-height: 40px;
+	height: 40px;
+}
+#header .header_left,
+#header .header_right{
+    width: 50%;
+}
+#header .header_left ul li{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #fff;
+}
+#header .header_right ul li a,
+#header .header_right ul li{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 10px;
+    color: #fff;
+    text-align: right;
+}
+
+#header .header_right ul li:hover a{
+    color: #fbaa33;
+}
+
+
+
+/* //Header css End*/ 
+
+#main_manu u li a{
+    color: blueviolet;
+}
+
+
+
